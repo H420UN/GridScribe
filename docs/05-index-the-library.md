@@ -48,8 +48,6 @@ Allow a few minutes for roles to take effect.
 Why `url` and `title`? The Foundry Azure AI Search tool builds its citations from the index's `title` and `url` fields. For Blob files, `title` is the file name (for example `EESB-204-2025-BESS-siting-and-fire-separation.md`) and `url` is its path in the private `library` container.
 
 
-![Import and vectorise placeholder](images/05-import-vectorize.svg)
-
 **Expected result:** a "created successfully" message, and under **Search management** a data source, skillset, indexer and the index `gridscribe-index`.
 
 **If it fails:** deployment not listed → check the embedding deployment **Succeeded** and that you picked the Foundry resource (not the project); 401/403 → key route on Free, roles on Basic; wizard insists on managed identity → see [troubleshooting](troubleshooting.md).
