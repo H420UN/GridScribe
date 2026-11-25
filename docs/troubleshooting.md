@@ -56,9 +56,6 @@ Two other ways to ground a chat model in `gridscribe-index`, to try after the se
 - **Foundry IQ knowledge base.** New Foundry › **Build** › **Knowledge**: connect your Search service, add a **search-index knowledge source** pointing at the existing `gridscribe-index` (not a Blob source, which would build a second index), create a knowledge base, then connect it to an agent. It adds query planning, which can add small extra charges. See [What is Foundry IQ?](https://learn.microsoft.com/azure/foundry/agents/concepts/what-is-foundry-iq), [existing-index knowledge source](https://learn.microsoft.com/azure/search/agentic-knowledge-source-how-to-search-index) and [connect to an agent](https://learn.microsoft.com/azure/foundry/agents/how-to/foundry-iq-connect).
 - **Chat playground "Add your data".** Where the playground still offers it for your model, select Azure AI Search › `gridscribe-index`, hybrid search. It is an older route and may not be offered for newer models.
 
-> [!NOTE]
-> TODO (facilitator): verify in dry run — if the Search tool attaches cleanly, nothing more to do here; if not, try the Foundry IQ route once and note its timings for the backup demo.
-## Optional Cloud Shell
 
 - **Storage prompt:** choose ephemeral / no storage if available. If persistence is required, use advanced settings and create any storage in the workshop group, or record the separate lab-only storage for deletion. Do not delete an existing Cloud Shell share belonging to other work.
 - **Permissions:** the script's user needs Search Index Data Reader and Cognitive Services OpenAI User. The index vectorizer independently needs access to its embedding model.
