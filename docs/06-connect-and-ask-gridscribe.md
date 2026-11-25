@@ -37,11 +37,6 @@ Set Search › **Settings** › **Keys** to **Both**, then give the **Foundry re
 
 The tool reads each chunk's `chunk` text and builds citations from its `title` (the file name) and `url` fields, which you created in Step 5.
 
-> [!NOTE]
-> TODO (facilitator): verify in dry run — the exact button labels in step 4 on the workshop date (the Learn page documents the tool and its settings rather than each button). If the label for hybrid search differs, update this page and slide 11.
-
-![GridScribe connection placeholder](images/06-agent.svg)
-
 **Expected result:** GridScribe shows the `gridscribe-chat` model, your instructions and one tool, **Azure AI Search** › `gridscribe-index`.
 
 **If it fails:** `gridscribe-search` not listed → finish part 1 first and refresh; index not listed → check the index name in Azure portal is exactly `gridscribe-index`; model not listed → the deployment is still creating or failed (see [Step 4](04-foundry-and-models.md)).
