@@ -10,9 +10,6 @@
 
 Use **Sweden Central** first; fallbacks are **East US 2**, then **UK South**. These support Foundry projects and Agent Service in current documentation, but you must also check [model availability](https://learn.microsoft.com/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure-region-availability), quota and your subscription's allowed locations.
 
-> [!NOTE]
-> TODO (facilitator): verify in dry run — non-zero deployable quota for **gpt-5.4-mini** (fallbacks **gpt-5.4-nano**, then larger/costlier **gpt-5.1**) and **text-embedding-3-small** in the agreed region on both fresh offer types. Check lifecycle dates, new-agent Azure AI Search tool support and latency. Student region policies and quotas can be tighter; no public document guarantees this exact combination. If blocked, try an allowed fallback region, then the Azure free-account route if eligible, or pair up. Free trials can be blocked too; never require a paid upgrade.
-
 ## 2. Create one Foundry resource and project
 
 1. Sign in to [ai.azure.com](https://ai.azure.com) with the same account as Azure portal. Turn **New Foundry** on for these creation steps.
@@ -34,16 +31,12 @@ Repeat with **text-embedding-3-small**, deployment name **`text-embedding-3-smal
 > [!IMPORTANT]
 > Both deployments consume credit when used. Global deployments can process requests outside the resource region. Use only the invented training documents; never real client information.
 
-![Foundry deployments placeholder](images/04-models.svg)
 
 ## 5. Keep the new portal selected
 
 The primary path in [Step 6](06-connect-and-ask-gridscribe.md) uses a **new Foundry prompt agent** and the **Azure AI Search tool**. Leave **New Foundry on**. The [tool compatibility table](https://learn.microsoft.com/azure/foundry/agents/concepts/limits-quotas-regions#tool-support-by-region-and-model) lists Azure AI Search support for all three candidate models.
 
 The [retirement schedule](https://learn.microsoft.com/azure/foundry/openai/concepts/model-retirement-schedule) currently lists these candidates as GA, but GPT-4.1-family models as deprecated and unavailable to new customers. Classic agents are also deprecated. Neither is a suitable fallback for a fresh account. Small `gpt-5-mini` is not a drop-in replacement either: its current tool matrix does **not** list direct Azure AI Search support.
-
-> [!NOTE]
-> TODO (facilitator): verify in dry run — a brand-new project shows **Build** › **Agents** with the New Foundry toggle on, and `gridscribe-chat` is selectable as an agent model.
 
 **Expected result:** the correct project and resource group, plus two **Succeeded** deployments named `gridscribe-chat` and `text-embedding-3-small`.
 
