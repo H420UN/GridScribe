@@ -31,9 +31,6 @@ The Free tier signs in to Storage and to your embedding model with **keys**, whi
 
 Only if you were told to use **Basic**: open Search › **Settings** › **Identity**, set **System assigned** to **On** and **Save**. Step 5 lists the roles to add.
 
-> [!NOTE]
-> TODO (facilitator): verify in dry run — that both a fresh Azure free account and an Azure for Students subscription can create a Free search service in the agreed region. If students cannot, announce the Basic fallback (and its cost) or pairs at the start of the build.
-![Search creation placeholder](images/03-search.svg)
 
 ## Free limits that matter
 
