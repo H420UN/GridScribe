@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="240" viewBox="0 0 960 240" role="img" aria-labelledby="title description">
+  <title id="title">Screenshot placeholder: storage upload</title>
+  <desc id="description">Replace with a redacted dry-run capture of the actual Azure portal upload pane.</desc>
+  <rect width="960" height="240" fill="#F2F2F2"/>
+  <rect x="28" y="28" width="6" height="184" fill="#FF372F"/>
+  <g fill="#1A1A1A" font-family="Arial, Helvetica, sans-serif">
+    <text x="60" y="92" font-size="26">SCREENSHOT PLACEHOLDER - not a portal screen</text>
+    <text x="60" y="138" font-size="20">Storage: library / Upload / Advanced / Upload to folder</text>
+    <text x="60" y="178" font-size="18">Capture during the facilitator dry run. Never show keys.</text>
+  </g>
+</svg>

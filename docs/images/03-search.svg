@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="240" viewBox="0 0 960 240" role="img" aria-labelledby="title description">
+  <title id="title">Screenshot placeholder: create Search</title>
+  <desc id="description">Replace with a redacted dry-run capture showing actual Search tier and region controls.</desc>
+  <rect width="960" height="240" fill="#F2F2F2"/>
+  <rect x="28" y="28" width="6" height="184" fill="#FF372F"/>
+  <g fill="#1A1A1A" font-family="Arial, Helvetica, sans-serif">
+    <text x="60" y="92" font-size="26">SCREENSHOT PLACEHOLDER - not a portal screen</text>
+    <text x="60" y="138" font-size="20">Create Azure AI Search: group / region / tier</text>
+    <text x="60" y="178" font-size="18">Capture during the facilitator dry run. Check Free versus Basic.</text>
+  </g>
+</svg>
