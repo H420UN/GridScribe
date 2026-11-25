@@ -7,7 +7,7 @@
 
 # GridScribe
 
-Welcome to **Beyond the data: how AI really works inside an engineering firm**, University of Cambridge Engineering Insight Day at WSP Cambridge, Wednesday 25 November 2026, 13:50–14:35. Your facilitator is Haroun Abdul Azis, AI Engineer in WSP's AI Accelerator team. No Azure experience or local software installs needed.
+Welcome to **Beyond the data: how AI really works inside an engineering firm**, University of Cambridge Engineering Insight Day at WSP Cambridge, Wednesday 25 November 2026, 13:50–14:35.  No Azure experience or local software installs needed.
 
 ## Your mission
 
