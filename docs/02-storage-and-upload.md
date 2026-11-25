@@ -42,10 +42,6 @@ Select **Upload** for each batch, wait for completion and check all **36 files**
 > [!TIP]
 > Short of time? Leave **Upload to folder** blank for each of the three batches. A flat upload also works: every filename is unique. Do not upload both flat and folder copies, which would duplicate the evidence.
 
-![Storage upload placeholder](images/02-upload.svg)
-
-> [!NOTE]
-> TODO (facilitator): verify in dry run — replace the storage placeholder with a screenshot of the current Upload pane, including multi-select and Advanced › Upload to folder. Confirm the three-batch upload takes under four minutes with account creation.
 
 **Expected result:** one private `library` container holding 19 + 10 + 7 Markdown blobs. [Markdown is supported](https://learn.microsoft.com/azure/search/search-how-to-index-azure-blob-storage#supported-document-formats); no conversion is needed.
 
