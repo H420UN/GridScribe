@@ -47,8 +47,6 @@ Allow a few minutes for roles to take effect.
 
 Why `url` and `title`? The Foundry Azure AI Search tool builds its citations from the index's `title` and `url` fields. For Blob files, `title` is the file name (for example `EESB-204-2025-BESS-siting-and-fire-separation.md`) and `url` is its path in the private `library` container.
 
-> [!NOTE]
-> TODO (facilitator): verify in dry run — on a fresh Free service, confirm the **Azure OpenAI** kind lists the Foundry resource and offers **API key** authentication, and that the index is named `gridscribe-index`. If the Free route is refused, switch the room to the Basic fallback (announce the cost first) or pairs.
 
 ![Import and vectorise placeholder](images/05-import-vectorize.svg)
 
@@ -64,9 +62,6 @@ The Free tier comfortably fits this library: 36 files of under 4 KB each (about 
 
 **If the run stops early** (status **Transient failure**, a timeout or HTTP 429 from the embedding model): wait at least **3 minutes** (the Free tier allows one manual run every 180 seconds), then select **Run**. The indexer carries on from where it stopped. Do **not** select **Reset**.
 
-> [!NOTE]
-> TODO (facilitator): verify in dry run — record the run time and chunk count for the 36 files on a fresh Free service, so you can tell students what "normal" looks like.
-## 4. Look inside retrieval
 
 Open **Search management** › **Indexes** › **gridscribe-index** › **Search explorer**. Select **View** › **JSON view** and run:
 
