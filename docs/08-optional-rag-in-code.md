@@ -95,8 +95,6 @@ unset AZURE_SEARCH_API_KEY AZURE_OPENAI_API_KEY
 
 Offline checks (no Azure requests): `python -m unittest discover -s scripts -p 'test_*.py'`.
 
-> [!NOTE]
-> TODO (facilitator): verify in dry run — run the optional script in Cloud Shell with Entra roles, then its explicit key fallback, using the actual wizard-created schema and vectorizer. Confirm citations and both empty-retrieval and permission-failure behaviour end to end.
 
 SDK sources: [hybrid queries](https://learn.microsoft.com/azure/search/hybrid-search-how-to-query), [query vectorisation](https://learn.microsoft.com/azure/search/vector-search-how-to-configure-vectorizer), [OpenAI endpoint authentication](https://learn.microsoft.com/azure/developer/ai/how-to/switching-endpoints?pivots=python).
 
